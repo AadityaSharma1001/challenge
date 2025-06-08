@@ -24,6 +24,7 @@ const Prime = () => {
     setResult(null);
 
     try {
+      console.log(import.meta.env.VITE_API_URL);
       const response = await axios.get(`${import.meta.env.VITE_API_URL}/is_Prime`, {
         params: { number: num }
       });
