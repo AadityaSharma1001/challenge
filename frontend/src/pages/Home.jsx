@@ -11,6 +11,7 @@ const Home = () => {
     setError(false);
 
     try {
+      console.log(import.meta.env.VITE_API_URL);
       const response = await fetch('https://catfact.ninja/fact');
       
       if (!response.ok) {
