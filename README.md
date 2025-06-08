@@ -28,7 +28,7 @@ README.md
 1. (Optional) Create and activate a virtual environment:
    ```sh
    python -m venv venv
-   source venv/bin/activate  # On Windows: venv\Scripts\activate
+   source venv/bin/activate  # On Windows: venv\Scripts\activate and if it doesn't work, try: cd venv\Scripts and then ./activate
    ```
 
 2. Navigate to the backend folder:
@@ -174,6 +174,3 @@ npm run dev
 
 ---
 
-## 📄 License
-
-MIT
