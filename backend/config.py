@@ -1,0 +1,1 @@
+#App configuration file, this file contains the configuration for the Flask app. For now it's empty but can be extended later.
